@@ -3,7 +3,7 @@ import Layout from "../../components/Layout/Layout";
 const Home = () => {
 	return (
 		<Layout>
-			<h2>contentssdsd</h2>
+			<h2>test</h2>
 		</Layout>
 	);
 };
