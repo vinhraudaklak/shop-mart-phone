@@ -1,5 +1,7 @@
-import logo from './Logo.png';
+import logo from "./Logo.png";
+import logoWhite from "./LogoWhite.png";
 
 export const images = {
-  logo,
-}
+	logo,
+	logoWhite,
+};

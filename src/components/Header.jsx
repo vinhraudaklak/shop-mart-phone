@@ -37,7 +37,7 @@ const Header = () => {
 
 	return (
 		<div className="w-full border-b-[1px]">
-			<div className="max-w-[1120px] mx-6 md:mx-12 xl:mx-auto flex justify-between items-center gap-6 py-4 relative">
+			<div className="container-default mx-6 md:mx-12 xl:mx-auto flex justify-between items-center gap-6 py-4 relative">
 				{/*Logo and side bars */}
 				<div className="flex items-center gap-6">
 					{/* Side bars */}
