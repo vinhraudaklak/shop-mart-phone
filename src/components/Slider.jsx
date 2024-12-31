@@ -17,7 +17,7 @@ const Slider = () => {
 						everyone
 					</span>
 					<div className="w-full lg:w-auto">
-						<button className="px-14 py-4 w-full mt-4 text-[#FFFFFF] border-[1px] rounded-md hover:bg-gray-200 hover:text-black ">
+						<button className="px-14 py-4 w-full mt-4 text-[#FFFFFF] border-[1px] rounded-md hover:bg-gray-200 hover:text-black hover:transition-all hover:ease-in-out hover:duration-300">
 							Shop Now
 						</button>
 					</div>
