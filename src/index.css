@@ -11,16 +11,25 @@ img {
   @apply w-full;
 }
 
+.container-default {
+  @apply max-w-[1120px];
+}
+
 /* custom List menu */
 .ct-menu-li {
   @apply cursor-pointer text-lg font-medium text-gray-500 hover:text-black tracking-wide py-2 hover:bg-gray-100 md:hover:bg-transparent;
 }
 
 .ct-topMenu-expanded {
-	@apply absolute top-16 z-50 w-[100vw] text-center bg-gray-50 animate-slideDown;
+	@apply absolute top-16 z-50 w-full text-center bg-gray-50 animate-slideDown;
 }
 
 /* icon */
 .icon-default {
-  @apply text-2xl cursor-pointer;
+  @apply text-xl md:text-2xl cursor-pointer;
+}
+
+/* Style text footer */
+.text-footer-style {
+  @apply text-[#CFCFCF] text-sm leading-8 font-medium mt-2 cursor-pointer hover:text-white;
 }
