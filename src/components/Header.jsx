@@ -67,7 +67,7 @@ const Header = () => {
 
 					<div className="flex-1">
 						<input
-							className="w-full py-1 px-2 bg-inherit text-basis text-black font-medium outline-none focus:bg-white border border-transparent focus:border focus:border-[#989898] rounded"
+							className="w-full py-1 px-2 bg-inherit text-sm text-black font-normal outline-none focus:bg-white border border-transparent focus:border focus:border-[#989898] rounded"
 							type="text"
 							placeholder="Search"
 						/>

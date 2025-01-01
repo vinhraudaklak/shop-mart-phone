@@ -8,7 +8,7 @@ const Slider = () => {
 					<h4 className="text-[#FFFFFF] opacity-40 text-base lg:text-xl font-semibold leading-8 ">
 						Pro.Beyond.
 					</h4>
-					<h1 className="text-[#FFFFFF] text-4xl lg:text-8xl font-light tracking-[-0.96px]">
+					<h1 className="text-[#FFFFFF] text-4xl lg:text-8xl font-extralight tracking-[-0.96px]">
 						IPhone 14
 						<span className="font-semibold"> Pro</span>
 					</h1>
@@ -17,7 +17,7 @@ const Slider = () => {
 						everyone
 					</span>
 					<div className="w-full lg:w-auto">
-						<button className="px-14 py-4 w-full mt-4 text-[#FFFFFF] border-[1px] rounded-md hover:bg-gray-200 hover:text-black hover:transition-all hover:ease-in-out hover:duration-300">
+						<button className="button-default px-14 py-4 w-full mt-4 text-[#FFFFFF] hover:bg-gray-200 hover:text-black ">
 							Shop Now
 						</button>
 					</div>

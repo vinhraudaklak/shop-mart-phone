@@ -17,7 +17,7 @@ img {
 
 /* custom List menu */
 .ct-menu-li {
-  @apply cursor-pointer text-lg font-medium text-gray-500 hover:text-black tracking-wide py-2 hover:bg-gray-100 md:hover:bg-transparent hover:transition-all hover:ease-in-out hover:duration-300;
+  @apply cursor-pointer text-base font-medium text-gray-500 hover:text-black tracking-wide py-2 hover:bg-gray-100 md:hover:bg-transparent hover:transition-all hover:ease-in-out hover:duration-300;
 }
 
 .ct-topMenu-expanded {
@@ -37,4 +37,18 @@ img {
 /* item category */
 .item-category {
   @apply py-7 px-[52px] bg-[#EDEDED] w-full lg:w-[160px] h-[128px] flex flex-col items-center justify-between gap-2 rounded-[15px] font-medium tracking-wide whitespace-nowrap overflow-hidden text-ellipsis hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-300;
+}
+
+/* Action line bottom */
+.action-line-bottom {
+	@apply cursor-pointer pr-3 hover:text-black relative after:absolute after:bottom-0 after:left-0 after:bg-black after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
+}
+
+.action-selected {
+  @apply text-black after:w-full
+}
+
+/* Button default */
+.button-default {
+  @apply text-sm font-medium leading-6 rounded-lg border-[1px] hover:transition-all hover:ease-in-out hover:duration-300;
 }

@@ -29,7 +29,7 @@ const Categories = () => {
 					</div>
 				</div>
 				{/* bottom */}
-				<div className="grid grid-cols-2 md:grid-cols-3 lg:flex lg:justify-between lg:items-center gap-8">
+				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
 					<Link>
 						<div className="item-category">
 							<div>

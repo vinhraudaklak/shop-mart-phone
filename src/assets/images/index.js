@@ -9,15 +9,21 @@ import camera from "./IconCategories/Cameras.png";
 import headPhone from "./IconCategories/Headphones.png";
 import computer from "./IconCategories/Computers.png";
 import gaming from "./IconCategories/Gaming.png";
+// Product
+import iphone14 from "./Iphone 14 pro 1.png";
 
 export const images = {
 	logo,
 	logoWhite,
+	// sliders
 	slider,
+	// Categories
 	phone,
 	appleWatch,
 	camera,
 	headPhone,
 	computer,
 	gaming,
+	// Products
+	iphone14,
 };
