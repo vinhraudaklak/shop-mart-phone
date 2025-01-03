@@ -8,7 +8,7 @@ const Slider = () => {
 					<h4 className="text-[#FFFFFF] opacity-40 text-base lg:text-xl font-semibold leading-8 ">
 						Pro.Beyond.
 					</h4>
-					<h1 className="text-[#FFFFFF] text-4xl lg:text-8xl font-extralight tracking-[-0.96px]">
+					<h1 className="text-[#FFFFFF] text-6xl lg:text-8xl font-extralight tracking-[-0.96px]">
 						IPhone 14
 						<span className="font-semibold"> Pro</span>
 					</h1>
