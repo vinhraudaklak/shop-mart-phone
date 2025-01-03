@@ -10,7 +10,7 @@ const SectionProducts = () => {
         <div className="action-line-bottom">Featured Products</div>
       </div>
       {/* Container product */}
-      <div className="mt-8 grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-4">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-4 gap-4">
         <CartProduct />
         <CartProduct />
         <CartProduct />
