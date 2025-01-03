@@ -6,7 +6,7 @@ import { images } from "../assets/images";
 
 const CartProduct = () => {
 	return (
-		<div className="py-6 px-4 rounded-[9px] flex flex-col gap-4 min-w-[236px] min-h-[384px] bg-[#F6F6F6] hover:border-[1px]">
+		<div className="py-6 px-4 rounded-[9px] flex flex-col gap-4 min-w-[236px] min-h-[384px] bg-[#F6F6F6] hover:border-gray-200  border-[1px] border-transparent">
 			<div className="flex justify-end">
        {/* Hồi set dk để đổi icon */}
   				<FontAwesomeIcon className="text-2xl text-[#909090C4] py-1 cursor-pointer hover:text-red-600" icon={faHeart} />
@@ -15,7 +15,7 @@ const CartProduct = () => {
       {/* img */}
 			<div className="flex justify-center">
 			  <div
-  				className="w-[160px] h-[160px]"
+  				className="w-[160px] h-[160px] bg-no-repeat bg-center"
   				style={{ backgroundImage: `url(${images.iphone14})` }}
   			></div>
 			</div>
